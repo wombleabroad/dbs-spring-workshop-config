@@ -2,6 +2,3 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0
-
-signin:
-  passphrase: make jar not war
