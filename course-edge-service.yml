@@ -1,7 +1,13 @@
+signin:
+  passphrase: make jar not war
+
 spring:
   sleuth:
     sampler:
       percentage: 1.0
 
-signin:
-  passphrase: make jar not war
+hystrix:
+  command:
+    StudentDomainClient#loadStudent(String):
+      circuitBreaker:
+        requestVolumeThreshold: 5
