@@ -1,6 +1,11 @@
 signin:
   passphrase: make jar not war
 
+domain:
+  microservice:
+    username: user
+    password: springworkshop
+
 spring:
   sleuth:
     sampler:
